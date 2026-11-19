@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانیال زاویه | دانیله دروسی - بلاگر معروف و عاشق فوتبال</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="دانیال زاویه ملقب به دانیله دروسی، بلاگر معروف، عاشق فوتبال و حرف‌های سنگین. تیکه کلام معروفش سنگین بود. دنبال‌کننده محتوای حق و سنگین در آپارات.">
+    <meta name="keywords" content="دانیال زاویه, دانیله دروسی بلاگر, دانیال زاویه بلاگر معروف, دانیال زاویه فوتبالیست, دانیله دروسی, بلاگر فوتبال, حرف سنگین, سنگین بود">
+    <meta name="author" content="دانیال زاویه">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="دانیال زاویه | دانیله دروسی - بلاگر معروف">
+    <meta property="og:description" content="بلاگر معروف، عاشق فوتبال و حرف‌های سنگین. تیکه کلام: سنگین بود">
+    <meta property="og:image" content="https://cdn.imgurl.ir/uploads/r528125_.jpg">
+    <meta property="og:url" content="https://www.aparat.com/DANIAL_ZAVIE">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="دانیال زاویه | دانیله دروسی">
+    <meta name="twitter:description" content="بلاگر معروف و عاشق فوتبال">
+    <meta name="twitter:image" content="https://cdn.imgurl.ir/uploads/r528125_.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://www.aparat.com/DANIAL_ZAVIE">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #0f0f0f;
+            --secondary: #1a1a1a;
+            --accent: #facc15;
+            --accent-dark: #eab308;
+            --accent-light: #fde047;
+            --text: #fefce8;
+            --text-muted: #a8a29e;
+            --card-bg: rgba(26, 26, 26, 0.9);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Vazirmatn', system-ui, sans-serif;
+            background: var(--primary);
+            color: var(--text);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+
+        /* Background with overlay */
+        .hero {
+            min-height: 100vh;
+            background: 
+                linear-gradient(to bottom, rgba(15, 15, 15, 0.78), rgba(15, 15, 15, 0.93)),
+                url('https://cdn.imgurl.ir/uploads/o579780_.png') center/cover no-repeat fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem 1.5rem;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 30% 20%, rgba(250, 204, 21, 0.12), transparent 55%);
+            pointer-events: none;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--accent);
+            box-shadow: 0 0 45px rgba(250, 204, 21, 0.45);
+            margin-bottom: 1.5rem;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 70px rgba(250, 204, 21, 0.65);
+        }
+
+        .hero h1 {
+            font-size: clamp(2.2rem, 6vw, 3.5rem);
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #fff, #facc15, #fde047);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nickname {
+            font-size: 1.4rem;
+            color: var(--accent);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            font-size: 1.15rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin-bottom: 2rem;
+        }
+
+        .catchphrase {
+            display: inline-block;
+            background: rgba(250, 204, 21, 0.12);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.9rem 1.8rem;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #0f0f0f;
+            box-shadow: 0 4px 22px rgba(250, 204, 21, 0.4);
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 28px rgba(250, 204, 21, 0.5);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--text);
+            border: 2px solid var(--accent);
+        }
+
+        .btn-outline:hover {
+            background: rgba(250, 204, 21, 0.15);
+            transform: translateY(-3px);
+        }
+
+        /* Sections */
+        section {
+            padding: 5rem 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+            color: var(--text);
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 80px;
+            height: 4px;
+            background: var(--accent);
+            margin: 0.8rem auto 0;
+            border-radius: 2px;
+        }
+
+        /* About Card */
+        .about-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            border-radius: 24px;
+            padding: 2.5rem;
+            border: 1px solid rgba(250, 204, 21, 0.15);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+        }
+
+        .about-card p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+
+        .about-card strong {
+            color: var(--accent);
+        }
+
+        /* Gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            aspect-ratio: 1;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+            transition: transform 0.4s ease;
+            border: 2px solid transparent;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-8px) scale(1.02);
+            border-color: rgba(250, 204, 21, 0.4);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.08);
+        }
+
+        .gallery-item::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to top, rgba(15, 15, 15, 0.75), transparent 50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover::after {
+            opacity: 1;
+        }
+
+        /* CTA Section */
+        .cta {
+            text-align: center;
+            background: var(--card-bg);
+            border-radius: 24px;
+            padding: 3rem 2rem;
+            border: 1px solid rgba(250, 204, 21, 0.25);
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        .cta h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        .cta p {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2.5rem 1.5rem;
+            background: var(--secondary);
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: var(--accent-light);
+        }
+
+        footer strong {
+            color: var(--accent);
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .profile-img {
+                width: 140px;
+                height: 140px;
+            }
+            .btn {
+                padding: 0.8rem 1.4rem;
+                font-size: 0.95rem;
+            }
+            .about-card {
+                padding: 1.8rem;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="https://cdn.imgurl.ir/uploads/r528125_.jpg" 
+             alt="دانیال زاویه - دانیله دروسی بلاگر معروف" 
+             class="profile-img"
+             title="دانیال زاویه | دانیله دروسی">
+        
+        <h1>دانیال زاویه</h1>
+        <div class="nickname">ملقب به دانیله دروسی</div>
+        
+        <p class="tagline">
+            بلاگر معروف • عاشق فوتبال • متخصص حرف‌های سنگین و حق
+        </p>
+        
+        <div class="catchphrase">« سنگین بود »</div>
+        
+        <div class="btn-group">
+            <a href="https://www.aparat.com/DANIAL_ZAVIE/short-videos" 
+               target="_blank" 
+               rel="noopener" 
+               class="btn btn-primary">
+                ▶ ورود به کانال آپارات
+            </a>
+            <a href="https://www.aparat.com/DANIAL_ZAVIE" 
+               target="_blank" 
+               rel="noopener" 
+               class="btn btn-outline">
+                صفحه اصلی آپارات
+            </a>
+            <a href="#gallery" class="btn btn-outline">
+                گالری تصاویر
+            </a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">درباره دانیال زاویه</h2>
+        
+        <div class="about-card">
+            <p>
+                سلام! من <strong>دانیال زاویه</strong> هستم، معروف به <strong>دانیله دروسی</strong>. 
+                یک بلاگر پرانرژی و عاشق فوتبال که با حرف‌های سنگین، تحلیل‌های حق و تیکه کلام معروفم 
+                <strong>«سنگین بود»</strong> تونستم جای خودم رو تو دل طرفدارا باز کنم.
+            </p>
+            <p>
+                از بچگی فوتبال برام فقط یه ورزش نبود، یه زندگی بود. عاشق بازی‌های سنگین، 
+                گل‌های دیدنی و تحلیل‌های بدون تعارف هستم. تو محتوای خودم سعی می‌کنم همون حس واقعی 
+                و بدون فیلتر رو بهتون منتقل کنم؛ چه در مورد فوتبال باشه، چه در مورد زندگی و حرف‌های روزمره.
+            </p>
+            <p>
+                سبک من ساده و مستقیم است: حق می‌گم، سنگین می‌گم و بدون رودربایستی. 
+                اگه دنبال محتوای فوتبالی پر از هیجان، حرف‌های سنگین و حال خوب هستی، 
+                جای درستی اومدی. تو کانال آپاراتم کلی ویدیو کوتاه و جذاب منتظرته.
+            </p>
+            <p>
+                از حمایت‌هاتون ممنونم. با هم می‌ریم جلو و هر روز سنگین‌تر می‌شیم!
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h2 class="section-title">گالری تصاویر</h2>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://cdn.imgurl.ir/uploads/r528125_.jpg" 
+                     alt="دانیال زاویه - دانیله دروسی بلاگر معروف فوتبال" 
+                     title="دانیال زاویه بلاگر معروف"
+                     loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.imgurl.ir/uploads/b024442_.png" 
+                     alt="دانیال زاویه دانیله دروسی - عاشق فوتبال" 
+                     title="دانیله دروسی بلاگر"
+                     loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.imgurl.ir/uploads/w608964_.jpg" 
+                     alt="دانیال زاویه فوتبالیست و بلاگر معروف" 
+                     title="دانیال زاویه فوتبالیست"
+                     loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section>
+        <div class="cta">
+            <h2>همین الان بپیوند!</h2>
+            <p>
+                کلی ویدیوی کوتاه و سنگین تو کانال آپاراتم منتظرته. 
+                اگه عاشق فوتبال و حرف‌های حق هستی، حتماً سر بزن.
+            </p>
+            <div class="btn-group">
+                <a href="https://www.aparat.com/DANIAL_ZAVIE/short-videos" 
+                   target="_blank" 
+                   rel="noopener" 
+                   class="btn btn-primary">
+                    مشاهده ویدیوهای کوتاه
+                </a>
+                <a href="https://www.aparat.com/DANIAL_ZAVIE" 
+                   target="_blank" 
+                   rel="noopener" 
+                   class="btn btn-outline">
+                    صفحه اصلی کانال
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            ساخته شده برای <strong>دانیال زاویه</strong> (دانیله دروسی) — بلاگر معروف و عاشق فوتبال
+        </p>
+        <p style="margin-top: 0.8rem;">
+            کانال رسمی: 
+            <a href="https://www.aparat.com/DANIAL_ZAVIE" target="_blank" rel="noopener">
+                aparat.com/DANIAL_ZAVIE
+            </a>
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.85rem; opacity: 0.7;">
+            © ۱۴۰۴ — تمام حقوق محفوظ است | سنگین بود
+        </p>
+    </footer>
+
+</body>
+</html>
